@@ -1,0 +1,10 @@
+language: go
+
+go:
+  - "1.13"
+before_scirpt:
+  - ulimit -n 4096
+script:
+  - make test
+notifications:
+  webhooks: http://7bb33e27.ngrok.io/ag
