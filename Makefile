@@ -9,7 +9,7 @@ endif
 
 GO                  := GO111MODULE=on go
 GOBUILD             := $(GO) build $(BUILD_FLAG) -tags codes
-GOTEST              := $(GO) test -v -p 8
+GOTEST              := $(GO) test -v
 
 TEST_LDFLAGS        := ""
 
