@@ -19,7 +19,7 @@ make
 make test
 ```
 
-## Run(Not runnable now)
+## Run
 
 Put the binary of `tinyscheduler-server`, `tinykv-server` and `tidb-server` into a single dir.
 
